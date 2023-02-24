@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+.tong{
+    width: 895px;
+    height: 700px;
+    margin-top: 36px;
+    box-shadow: 6px 6px 10px rgb(73,72,72), -6px -6px 10px rgb(73,72,72);    
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+    border-bottom: 1px solid black;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+}
+nav{
+    background-color: rgb(170, 170, 170);
+    font-size: 26px;
+    color: aliceblue;
+}
+.c1 li{
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    line-height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.c1 li a{
+    text-decoration: none;
+}
